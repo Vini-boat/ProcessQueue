@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/BezerraVinicius/Desktop/poo/ProcessQueue/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\src\\checaParentesis.cpp.obj -c C:\\Users\\BezerraVinicius\\Desktop\\poo\\ProcessQueue\\src\\checaParentesis.cpp",
+  "file": "C:/Users/BezerraVinicius/Desktop/poo/ProcessQueue/src/checaParentesis.cpp",
+  "output": "CMakeFiles/main.dir/src/checaParentesis.cpp.obj"
+},
+{
+  "directory": "C:/Users/BezerraVinicius/Desktop/poo/ProcessQueue/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\BezerraVinicius\\Desktop\\poo\\ProcessQueue\\main.cpp",
+  "file": "C:/Users/BezerraVinicius/Desktop/poo/ProcessQueue/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+}
+]
