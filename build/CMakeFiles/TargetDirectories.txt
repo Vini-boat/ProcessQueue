@@ -1,3 +1,0 @@
-C:/Users/BezerraVinicius/Desktop/poo/ProcessQueue/build/CMakeFiles/main.dir
-C:/Users/BezerraVinicius/Desktop/poo/ProcessQueue/build/CMakeFiles/edit_cache.dir
-C:/Users/BezerraVinicius/Desktop/poo/ProcessQueue/build/CMakeFiles/rebuild_cache.dir

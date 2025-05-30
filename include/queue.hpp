@@ -4,14 +4,14 @@
 #include "node.hpp"
 
 template<class T>
-class Stack {
+class Queue {
     private:
         Node<T>* base;
         Node<T>* top;
         int size;
     public:
-        Stack();
-        ~Stack();
+        Queue();
+        ~Queue();
         void push(T data);
         T pop();
         T peek();
@@ -20,7 +20,7 @@ class Stack {
 };
 
 template<class T>
-Stack<T>::Stack()
+Queue<T>::Queue()
 {
     this->base = nullptr;
     this->top = nullptr;
@@ -28,7 +28,7 @@ Stack<T>::Stack()
 }
 
 template<class T>
-Stack<T>::~Stack()
+Queue<T>::~Queue()
 {
     Node<T>* current = this->top;
     if(this->size == 0)
@@ -44,7 +44,7 @@ Stack<T>::~Stack()
 }
 
 template<class T>
-void Stack<T>::push(T data)
+void Queue<T>::push(T data)
 {
     Node<T>* node = new Node(data);
     if (this->top == nullptr)
@@ -60,7 +60,7 @@ void Stack<T>::push(T data)
 }
 
 template<class T>
-T Stack<T>::pop()
+T Queue<T>::pop()
 {
     Node<T>* node = this->top;
     this->top = node->getPrev();
@@ -71,7 +71,7 @@ T Stack<T>::pop()
 }
 
 template<class T>
-bool Stack<T>::exists(T data)
+bool Queue<T>::exists(T data)
 {
     Node<T>* node = this->base;
     while(node->getNext() != nullptr)
@@ -86,13 +86,13 @@ bool Stack<T>::exists(T data)
 }
 
 template<class T>
-int Stack<T>::getSize()
+int Queue<T>::getSize()
 {
     return size;
 }
 
 template<class T>
-T Stack<T>::peek()
+T Queue<T>::peek()
 {
     return this->top->getData();
 }

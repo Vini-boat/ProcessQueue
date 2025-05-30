@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "stack.hpp"
+#include "queue.hpp"
 
 using namespace std;
 int main() {
