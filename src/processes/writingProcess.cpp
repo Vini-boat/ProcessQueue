@@ -1,0 +1,5 @@
+#ifndef WRITINGPROCESS_C
+#define WRITINGPROCESS_C
+
+
+#endif
