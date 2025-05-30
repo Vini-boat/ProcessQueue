@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "queue.hpp"
+#include "datastructures/queue.hpp"
 
 using namespace std;
 int main() {
@@ -10,6 +10,7 @@ int main() {
     q.push(3);
     q.push(4);
     q.push(5);
+    cout << q.exists(5) << endl;
     while(!q.isEmpty())
     {
         cout << q.pop() << endl;

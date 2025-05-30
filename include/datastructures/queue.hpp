@@ -75,7 +75,7 @@ template<class T>
 bool Queue<T>::exists(T data)
 {
     Node<T>* node = this->base;
-    while(node->getNext() != nullptr)
+    while(node != nullptr)
     {
         if(node->getData() == data)
         {
