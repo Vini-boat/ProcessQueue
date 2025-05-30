@@ -17,6 +17,7 @@ class Queue {
         T peek();
         bool exists(T data);
         int getSize();
+        bool isEmpty();
 };
 
 template<class T>
@@ -62,8 +63,8 @@ void Queue<T>::push(T data)
 template<class T>
 T Queue<T>::pop()
 {
-    Node<T>* node = this->top;
-    this->top = node->getPrev();
+    Node<T>* node = this->base;
+    this->base = node->getNext();
     T data = node->getData();
     delete node;
     size--;
@@ -95,6 +96,12 @@ template<class T>
 T Queue<T>::peek()
 {
     return this->top->getData();
+}
+
+template<class T>
+bool Queue<T>::isEmpty()
+{
+    return size <= 0;
 }
 
 #endif
