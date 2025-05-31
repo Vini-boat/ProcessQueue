@@ -1,6 +1,6 @@
 #ifndef PROCESS_C
 #define PROCESS_C
-#include "process.hpp"
+#include "processes/process.hpp"
 
 Process::Process(int pid)
 {

@@ -7,7 +7,7 @@ project(MeuProjeto VERSION 1.0)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Adicionar todos os arquivos de código fonte da pasta src, de forma recursiva
-file(GLOB_RECURSE SRC_FILES ${CMAKE_SOURCE_DIR}/src/*.cpp)
+file(GLOB_RECURSE SRC_FILES ${CMAKE_SOURCE_DIR}/src/**.cpp)
 
 # Adiciona o arquivo main.cpp fora da pasta src
 list(APPEND SRC_FILES ${CMAKE_SOURCE_DIR}/main.cpp)
