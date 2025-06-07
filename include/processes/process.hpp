@@ -4,11 +4,10 @@
 class Process
 {
     public:
-    Process(int pid);
     int getPid();
     virtual void execute() = 0;
     
-    private:
+    protected:
     int pid;
 };
 

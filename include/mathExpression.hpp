@@ -9,9 +9,13 @@ class MathExpression
         SUBTRACTION = '-',
         MULTIPLICATION = '*',
         DIVISION = '/'
-    };
-    MathExpression(int a, int b, MathExpression::Operation operation);
-    int eval();
+        };
+        MathExpression(int a, int b, MathExpression::Operation operation);
+        int eval();
+    private:
+        int a;
+        int b;
+        MathExpression::Operation operation;
 };
 
 #endif
