@@ -47,7 +47,7 @@ Queue<T>::~Queue()
 template<class T>
 void Queue<T>::push(T data)
 {
-    Node<T>* node = new Node(data);
+    Node<T>* node = new Node<T>(data);
     if (this->top == nullptr)
     {
         node->setPrev(nullptr);
