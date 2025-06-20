@@ -1,0 +1,111 @@
+# depslib dependency file v1.0
+1750435803 source:c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\src\mathexpression.cpp
+	"../include/mathExpression.hpp"
+	<stdexcept>
+
+1750439094 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\mathexpression.hpp
+	<string>
+
+1750435876 source:c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\src\processes\process.cpp
+	"../../include/processes/process.hpp"
+
+1750433751 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\processes\process.hpp
+	<string>
+
+1750439118 source:c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\src\processes\readingprocess.cpp
+	<string>
+	<fstream>
+	<sstream>
+	"../../include/processes/readingProcess.hpp"
+	"../../include/processqueue.hpp"
+
+1750439240 source:c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\src\processes\writingprocess.cpp
+	<string>
+	"../../include/processes/writingProcess.hpp"
+	<iostream>
+	<fstream>
+
+1750435833 source:c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\src\processes\computingprocess.cpp
+	"../../include/processes/computingProcess.hpp"
+	"../../include/mathExpression.hpp"
+	<string>
+	<iostream>
+
+1750435918 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\processes\computingprocess.hpp
+	"../../include/processes/process.hpp"
+	<iostream>
+	"../../include/mathExpression.hpp"
+
+1750435821 source:c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\src\processes\printingprocess.cpp
+	"../../include/processes/printingProcess.hpp"
+	"../../include/processQueue.hpp"
+	"../../include/mathExpression.hpp"
+	<iostream>
+
+1750435944 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\processes\printingprocess.hpp
+	"../../include/processes/process.hpp"
+	"../../include/processQueue.hpp"
+	<iostream>
+	<string>
+
+1750423038 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\processqueue.hpp
+	"datastructures/queue.hpp"
+	"processes/process.hpp"
+	"mathExpression.hpp"
+	<string>
+
+1750438165 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\datastructures\queue.hpp
+	"node.hpp"
+
+1750419290 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\datastructures\node.hpp
+
+1750440852 source:c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\src\processqueue.cpp
+	"../include/processqueue.hpp"
+	"../include/datastructures/queue.hpp"
+	"../include/processes/process.hpp"
+	"../include/mathExpression.hpp"
+	"../include/processes/computingProcess.hpp"
+	"../include/processes/writingProcess.hpp"
+	"../include/processes/readingProcess.hpp"
+	"../include/processes/printingProcess.hpp"
+	<fstream>
+	<string>
+
+1750439310 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\processes\writingprocess.hpp
+	"../../include/processes/process.hpp"
+	"../../include/processQueue.hpp"
+	"../mathExpression.hpp"
+	<iostream>
+	<string>
+
+1750439014 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\processes\readingprocess.hpp
+	"../processqueue.hpp"
+
+1750436428 source:c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\src\system.cpp
+	"../include/system.hpp"
+	<iostream>
+	<string>
+	<limits>
+	"../include/processqueue.hpp"
+
+1750421307 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\system.hpp
+	<string>
+	"processqueue.hpp"
+
+1750436708 source:c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\main.cpp
+	<iostream>
+	<string>
+	"include/Sistema.hpp"
+
+1750436708 c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\include\sistema.hpp
+	<string>
+	"processqueue.hpp"
+
+1750440745 source:c:\users\vinicius.bezerra\desktop\dev\processqueuecodeblocks\src\sistema.cpp
+	"../include/sistema.hpp"
+	<iostream>
+	<string>
+	<limits>
+	<cstdlib>
+	"../include/processqueue.hpp"
+

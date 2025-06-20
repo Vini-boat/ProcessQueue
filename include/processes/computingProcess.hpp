@@ -1,19 +1,20 @@
 #ifndef COMPUTINGPROCESS_H
 #define COMPUTINGPROCESS_H
-#include "processes/process.hpp"
+#include "../../include/processes/process.hpp"
 #include <iostream>
-#include "mathExpression.hpp"
+#include "../../include/mathExpression.hpp"
 
 class ComputingProcess : public Process
 {
     public:
-        ComputingProcess(int pid, int a, int b, MathExpression::Operation operation);
+        ComputingProcess(int pid, MathExpression expression);
         void execute() override;
-        
+        string toString() override;
+
         //friend ostream& operator<<(ostream& os, const ComputingProcess& process);
-    
+
     private:
-        MathExpression* expression;
+        MathExpression expression;
 };
 
 #endif

@@ -64,8 +64,13 @@ template<class T>
 T Queue<T>::pop()
 {
     Node<T>* node = this->base;
-    this->base = node->getNext();
     T data = node->getData();
+    this->base = node->getNext();
+
+    if (this->base == nullptr) {
+        this->top = nullptr;
+    }
+
     delete node;
     size--;
     return data;

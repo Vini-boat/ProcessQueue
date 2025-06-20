@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ProcessQueue" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ProcessQueue" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ProcessQueue" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/datastructures/node.hpp" />
+		<Unit filename="include/datastructures/queue.hpp" />
+		<Unit filename="include/mathExpression.hpp" />
+		<Unit filename="include/processes/computingProcess.hpp" />
+		<Unit filename="include/processes/printingProcess.hpp" />
+		<Unit filename="include/processes/process.hpp" />
+		<Unit filename="include/processes/readingProcess.hpp" />
+		<Unit filename="include/processes/writingProcess.hpp" />
+		<Unit filename="include/processqueue.hpp" />
+		<Unit filename="include/sistema.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/mathExpression.cpp" />
+		<Unit filename="src/processes/computingProcess.cpp" />
+		<Unit filename="src/processes/printingProcess.cpp" />
+		<Unit filename="src/processes/process.cpp" />
+		<Unit filename="src/processes/readingProcess.cpp" />
+		<Unit filename="src/processes/writingProcess.cpp" />
+		<Unit filename="src/processqueue.cpp" />
+		<Unit filename="src/sistema.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

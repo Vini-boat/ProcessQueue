@@ -12,8 +12,8 @@ class ProcessQueue
         ProcessQueue();
         ~ProcessQueue();
         
-        void addComputingProcess(int a, int b, MathExpression::Operation operation);
-        void addWritingProcess(int a, int b, MathExpression::Operation operation);
+        void addComputingProcess(MathExpression);
+        void addWritingProcess(MathExpression);
         void addReadingProcess();
         void addPrintingProcess();
         
@@ -22,7 +22,7 @@ class ProcessQueue
 
         void saveToFile(const string& filename);
         void loadFromFile(const string& filename);
-        
+        void printQueue();
     private:
         Queue<Process*> queue;
         int current_pid;

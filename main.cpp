@@ -1,10 +1,10 @@
 #include <iostream>
 #include <string>
-#include "system.hpp"
+#include "include/Sistema.hpp"
 
 using namespace std;
 int main() {
-    System s;
+    Sistema s;
     s.run();
     return 0;
 }

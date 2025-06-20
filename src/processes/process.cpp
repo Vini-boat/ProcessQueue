@@ -1,6 +1,6 @@
 #ifndef PROCESS_C
 #define PROCESS_C
-#include "processes/process.hpp"
+#include "../../include/processes/process.hpp"
 
 int Process::getPid()
 {

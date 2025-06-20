@@ -1,13 +1,14 @@
-#ifndef SYSTEM_H
-#define SYSTEM_H
+#ifndef Sistema_H
+#define Sistema_H
 
 #include <string>
+#include "processqueue.hpp"
 
 using namespace std;
-class System
+class Sistema
 {
     public:
-    System();
+    Sistema();
     void run();
     void stop();
 
@@ -15,7 +16,6 @@ class System
     bool running;
     int current_screen;
     void show();
-    void handleInput();
     void clearScreen();
     string getLine();
     enum SCREENS {
@@ -30,6 +30,8 @@ class System
         SAVE_QUEUE,
         LOAD_QUEUE,
     };
+
+    ProcessQueue queue;
 };
 
 #endif
